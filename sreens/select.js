@@ -12,12 +12,12 @@ const SelectList = [
   {
     foodName: "Cheese Burger",
     toppings: "Beef, Veggies & Chilli",
-    foodImage: require("../burger.png"),
+    foodImage: require("../assets/burger.png"),
   },
   {
     foodName: "Jollof Rice",
     toppings: "Grilled Chicken, Veggies & Sauce",
-    foodImage: require("../rice.png"),
+    foodImage: require("../assets/rice.png"),
   },
 ];
 
@@ -38,14 +38,14 @@ export default Select = ({ navigation }) => {
         style={styles.conf}
         onPress={() => navigation.navigate("order")}
       >
-        <Image style={styles.cat} source={require("../cat.png")} />
+        <Image style={styles.cat} source={require("../assets/cat.png")} />
       </TouchableOpacity>
 
       <Text style={styles.hello}>Hello, John</Text>
       <Text style={styles.day}>Select your meal for the day</Text>
 
       <View style={styles.search}>
-        <Image style={styles.age} source={require("../Shape.png")} />
+        <Image style={styles.age} source={require("../assets/Shape.png")} />
         <TextInput style={styles.log} placeholder="search for meals, dishes" />
       </View>
 
@@ -61,10 +61,10 @@ export default Select = ({ navigation }) => {
         <Text style={styles.vew}>View all</Text>
       </View>
       <View style={styles.last}>
-        <Image style={styles.last1} source={require("../chees.png")} />
-        <Image style={styles.last1} source={require("../pizza.png")} />
-        <Image style={styles.last1} source={require("../turkey.png")} />
-        <Image style={styles.last1} source={require("../soup.png")} />
+        <Image style={styles.last1} source={require("../assets/chees.png")} />
+        <Image style={styles.last1} source={require("../assets/pizza.png")} />
+        <Image style={styles.last1} source={require("../assets/turkey.png")} />
+        <Image style={styles.last1} source={require("../assets/soup.png")} />
       </View>
     </View>
   );

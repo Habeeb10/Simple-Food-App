@@ -37,7 +37,7 @@ export default function Signup({ navigation }) {
           <View style={styles.modalBox}>
             <View style={styles.top}></View>
             <Image
-              source={require("../myicon.png")}
+              source={require("../assets/myicon.png")}
               resizeMode="contain"
               style={styles.image}
             />

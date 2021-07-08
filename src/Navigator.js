@@ -14,12 +14,12 @@ export default function Navigator() {
   return (
     <NavigationContainer>
       <Stack.Navigator headerMode={false}>
-        <Stack.Screen name="user" component={User} />
-        <Stack.Screen name="details" component={Details} />
         <Stack.Screen name="login" component={Login} />
         <Stack.Screen name="select" component={Select} />
         <Stack.Screen name="signup" component={Signup} />
         <Stack.Screen name="order" component={Order} />
+        <Stack.Screen name="user" component={User} />
+        <Stack.Screen name="details" component={Details} />
       </Stack.Navigator>
     </NavigationContainer>
   );

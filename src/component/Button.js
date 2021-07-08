@@ -1,7 +1,18 @@
 import React from "react";
-import { TouchableOpacity, StyleSheet, Text } from "react-native";
+import {
+  TouchableOpacity,
+  StyleSheet,
+  Text,
+  ActivityIndicator,
+} from "react-native";
 
-export const Button = ({ title, onPress, style, ActivityIndicator }) => {
+export const Button = ({
+  title,
+  onPress,
+  style,
+
+  loading,
+}) => {
   return (
     <TouchableOpacity
       style={[styles.container, style]}
